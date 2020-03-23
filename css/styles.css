@@ -1,0 +1,135 @@
+body{
+    font-family: 'Lato', sans-serif;
+}
+.logo{
+    size: 20px;
+    height: 50px;
+}
+.header{
+    padding:  40px 130px;
+    background: 
+        url(../images/header.png)
+        top center/ 100%
+        no-repeat;
+    height: 730px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.nav{
+}
+.menu{
+    display: flex;
+}
+.menu__item{
+    margin:0 16px;
+    padding: 15px;
+}
+.menu__item__link {
+    font-size: 21px;
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+}
+
+.text {
+color: #fff;
+width: 400px;
+margin-top: auto;
+margin-bottom:100px;
+}
+
+.text__title{
+font-size: 72px;
+}
+
+.text__sub{
+    font-size: 24px;
+    width: 400px;
+    margin-bottom: 34px;
+}
+
+.btn{
+    text-transform: uppercase;
+    font-size: 18px;
+    padding: 16px 45px;
+    display: inline-block;
+    border-radius: 28px;
+    font-weight: 600;
+    display: inline-block;
+
+}
+.btn__primary{
+    color: #7e459b;
+    background: #fff;
+    margin-right: 22px;
+
+}
+
+.btn__secondary{
+    background: rgba(0, 0, 0, 0);
+    border:2px solid #fff;
+    color: #fff;
+}
+
+.box{
+    width: 500px;
+
+}
+
+.box--rigth{
+    margin-left: auto;
+}
+
+.box__icons{
+    margin: 42px 120px;
+}
+
+.about h2 {
+    color: #B382BA;
+    display: inline-block;
+    font-family: 'LatoWebBlack';
+    font-size: 90px;
+    line-height: 85px;
+    letter-spacing: 0.625px;
+    margin: 0;
+    padding-left: 8%;
+    padding-top: 60px;
+    width: 500px;
+}   
+
+.about{
+    display: flex;
+    justify-content: space-between;
+    margin: 42px 120px;
+    
+}
+.about__call  { 
+    width: 590px;
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 66px;
+    color: #B382BA
+}
+
+.about__text{
+    font-weight: 300;
+    width: 280px;
+}
+
+.numbers {
+    display: flex;
+justify-content: space-around;
+}
+.num__stBox {
+    margin-bottom: 200px;
+    text-align: center;
+}
+.st__bx__title {
+    font-weight: 900;
+    color: #B382BA;
+    font-size: 62px;
+}
